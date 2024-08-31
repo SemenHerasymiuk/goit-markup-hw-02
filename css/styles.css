@@ -36,8 +36,8 @@ ul {
   color: #2e2f42;
 }
 
-.nav-header a:hover,
-.nav-header a:active {
+.nav-header:hover,
+.nav-header:active {
   color: #404bbf;
 }
 
@@ -50,9 +50,11 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
-.contacts-nav a:hover {
+.contacts-nav:hover,
+.contacts-nav:active {
   color: #404bbf;
 }
 
@@ -128,6 +130,20 @@ ul {
 /* Footer Section */
 .footer-section {
   background-color: #2e2f42;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-logo-blue {
+  color: #f4f4fd;
 }
 
 .footer-text {
