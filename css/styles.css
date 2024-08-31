@@ -77,6 +77,7 @@ ul {
   color: #ffffff;
   background: #4d5ae5;
   border: none;
+  cursor: pointer;
 }
 
 .button-header-section:hover {
@@ -102,7 +103,6 @@ ul {
 }
 
 .text-content-sections {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
