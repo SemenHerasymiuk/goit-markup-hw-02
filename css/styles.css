@@ -15,17 +15,17 @@ ul {
 /* Header styles */
 
 .logo {
-  font-family: "Railway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .logo-blue {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .nav-header {
@@ -80,7 +80,8 @@ ul {
   cursor: pointer;
 }
 
-.button-header-section:hover {
+.button-header-section:hover,
+.button-header-section:focus {
   background: #404bbf;
 }
 
@@ -88,6 +89,7 @@ ul {
 .header-sections {
   font-weight: 700;
   font-size: 36px;
+  text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
