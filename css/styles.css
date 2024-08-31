@@ -37,7 +37,7 @@ ul {
 }
 
 .nav-header:hover,
-.nav-header:active {
+.nav-header:focus {
   color: #404bbf;
 }
 
@@ -54,7 +54,7 @@ ul {
 }
 
 .contacts-nav:hover,
-.contacts-nav:active {
+.contacts-nav:focus {
   color: #404bbf;
 }
 
